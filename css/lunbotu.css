@@ -1,0 +1,69 @@
+.fcous {
+    position: relative;
+    width: 821px;
+    height: 380px;
+    /*overflow: hidden;*/
+}
+ul {
+    list-style: none;
+}
+.icon_l {
+    display: none;
+    position: absolute;
+    top: 213px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #4B90ED;
+    color: white;
+    cursor: pointer;
+    z-index: 99;
+}
+.icon_l:hover {
+    background-color: pink;
+}
+.icon_r:hover {
+    background-color: pink;
+}
+.icon_r {
+    display: none;
+    position: absolute;
+    top: 213px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #4B90ED;
+    color: white;
+    cursor: pointer;
+    z-index: 99;
+}
+.imgs_lun {
+    width: 700%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imgs_lun li {
+    float: left;
+}
+.circle {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.fcous .current {
+    background-color: #666666;
+}
